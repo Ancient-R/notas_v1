@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-nota{
+  color: rgba(255, 0, 0, .5);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Le agregamos padding al input de titulo para que este al mismo largo que los demás */
+.titulo{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.text-area, .editable{
+  resize: none;
+}
+
+.editable{
+  outline-color: #fff3cd;
+  height: 150px;
+  width: 100%;
+}
