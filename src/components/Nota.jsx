@@ -39,7 +39,7 @@ const Nota = ({ nota, eliminaNota, setNuevoContenido }) => {
                 </HeaderNota>
             }            
             <ul className="list-group list-group-flush">
-                <li className="list-group-item text-center text-muted">{ fecha } </li>
+                
                 <textarea 
                     className="list-group-item editable"
                     disabled={deshabilitado}
