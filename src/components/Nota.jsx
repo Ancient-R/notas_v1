@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import HeaderNota from '../components/HeaderNota'
 
 const Nota = ({ nota, eliminaNota, setNuevoContenido }) => {
-
-    const fecha = new Date().toLocaleString()
     
     // El nuevo contenido de la nota
     const [ contenido, setContenido] = useState(nota.contenido)
