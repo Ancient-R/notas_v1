@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <Formulario /> debe mostrarse correctamente 1`] = `
+<form
+  className="mt-5"
+  onSubmit={[Function]}
+>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <span
+        className="input-group-text bg-primary text-white titulo"
+      >
+        Título 
+        <i
+          className="fas fa-text-height ml-2"
+        />
+         
+      </span>
+    </div>
+    <input
+      className="form-control"
+      name="titulo"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <small
+    className="text-muted"
+  >
+    Ejemplo: Tarea
+  </small>
+  <div
+    className="input-group mt-3"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <span
+        className="input-group-text bg-primary text-white"
+      >
+        Contenido 
+        <i
+          className="fas fa-align-center ml-2"
+        />
+         
+      </span>
+    </div>
+    <textarea
+      className="form-control text-area"
+      name="contenido"
+      onChange={[Function]}
+      rows="2"
+      value=""
+    />
+  </div>
+  <small
+    className="text-muted"
+  >
+    Ejemplo: Investigar cómo nacen los bebés
+  </small>
+  <div
+    className="input-group mt-3"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <span
+        className="input-group-text bg-primary text-white"
+      >
+        Importancia
+        <i
+          className="fas fa-exclamation ml-2"
+        />
+      </span>
+    </div>
+    <select
+      className="form-control"
+      name="importancia"
+      onChange={[Function]}
+      value="low"
+    >
+      <option
+        className="bg-secondary text-white"
+        value="low"
+      >
+        Baja
+      </option>
+      <option
+        className="alert-warning"
+        value="media"
+      >
+        Media
+      </option>
+      <option
+        className="bg-danger text-white"
+        value="higth"
+      >
+        Alta
+      </option>
+    </select>
+  </div>
+  <small
+    className="text-muted mb-3"
+  >
+    Por defecto la importancia será 'baja'
+  </small>
+  <div
+    className="input-group mt-3 mb-3"
+  >
+    <button
+      className="btn btn-primary btn-block"
+      type="submit"
+      value="Agregar nota"
+    >
+      Agregar nota 
+      <span>
+        <i
+          className="far fa-sticky-note ml-2"
+        />
+      </span>
+    </button>
+  </div>
+</form>
+`;
