@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <Nota /> debe mostrarse correctamente 1`] = `
+<div
+  className="card mt-5 mb-3"
+>
+  <HeaderNota
+    clase="alert-secondary"
+    titulo="Título de testing"
+  />
+  <ul
+    className="list-group list-group-flush"
+  >
+    <textarea
+      className="list-group-item editable"
+      disabled={true}
+      onChange={[Function]}
+      value="Contenido del título testing"
+    >
+      Contenido del título testing
+    </textarea>
+  </ul>
+  <button
+    className="btn alert-warning"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-eraser"
+    />
+  </button>
+  <button
+    className="btn eliminar alert-danger"
+    onClick={[Function]}
+  >
+    <i
+      className="far fa-trash-alt"
+    />
+  </button>
+</div>
+`;
